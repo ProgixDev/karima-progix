@@ -85,11 +85,6 @@ export function BodySections() {
               </div>
             ))}
           </div>
-          <InfoBox icon="i" title="Un partenaire, pas un simple prestataire">
-            Un freelance exécute une commande. Une ESN facture 15 000 à 20 000 €. Progix se situe
-            entre les deux : l’expertise d’une équipe senior et un accompagnement business complet,
-            au prix d’un lancement.
-          </InfoBox>
         </div>
       </section>
 
