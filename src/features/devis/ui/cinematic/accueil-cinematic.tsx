@@ -43,7 +43,7 @@ const services: ReadonlyArray<Service> = [
   },
   {
     title: "CRM & ERP sur mesure",
-    text: "Digitalisation et automatisation des processus mÃ©tier. Centralisez vos opÃ©rations, gagnez du temps et de lâ€™efficacitÃ©.",
+    text: "Digitalisation et automatisation des processus métier. Centralisez vos opérations, gagnez du temps et de l’efficacité.",
     icon: ICON(
       <>
         <rect x="3" y="4" width="18" height="16" rx="2" />
@@ -54,7 +54,7 @@ const services: ReadonlyArray<Service> = [
   },
   {
     title: "Intelligence artificielle",
-    text: "IA appliquÃ©e : agents conversationnels, automatisation intelligente, traitement de donnÃ©es et infÃ©rence.",
+    text: "IA appliquée : agents conversationnels, automatisation intelligente, traitement de données et inférence.",
     icon: ICON(
       <>
         <circle cx="12" cy="12" r="3" />
@@ -64,7 +64,7 @@ const services: ReadonlyArray<Service> = [
   },
   {
     title: "Plateformes web",
-    text: "Applications web temps rÃ©el, marketplaces, portails clients. Architectures modernes et performantes.",
+    text: "Applications web temps réel, marketplaces, portails clients. Architectures modernes et performantes.",
     icon: ICON(
       <>
         <polyline points="8 8 4 12 8 16" />
@@ -75,7 +75,7 @@ const services: ReadonlyArray<Service> = [
   },
   {
     title: "Accompagnement marketing",
-    text: "Formation Ã  lâ€™acquisition dâ€™utilisateurs : UGC, Meta Ads, Apple Search Ads. On vous laisse avec un business, pas juste une app.",
+    text: "Formation à l’acquisition d’utilisateurs : UGC, Meta Ads, Apple Search Ads. On vous laisse avec un business, pas juste une app.",
     icon: ICON(
       <>
         <polyline points="3 17 9 11 13 15 21 7" />
@@ -85,7 +85,7 @@ const services: ReadonlyArray<Service> = [
   },
   {
     title: "Maintenance long terme",
-    text: "Support continu, Ã©volutions, et conception pour durer 5 Ã  10 ans. Nous maintenons ce que nous construisons.",
+    text: "Support continu, évolutions, et conception pour durer 5 à 10 ans. Nous maintenons ce que nous construisons.",
     icon: ICON(
       <>
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -99,21 +99,21 @@ type Leader = { nm: string; ro: string; ds: string; img?: string };
 const leaders: ReadonlyArray<Leader> = [
   {
     nm: "Ilyes Ghorieb",
-    ro: "PrÃ©sident & Fondateur",
+    ro: "Président & Fondateur",
     img: "/team/ilyes-ghorieb.png",
-    ds: "Pilote la stratÃ©gie de lâ€™agence et la relation avec les partenaires clÃ©s. Interlocuteur direct sur les dÃ©cisions structurantes.",
+    ds: "Pilote la stratégie de l’agence et la relation avec les partenaires clés. Interlocuteur direct sur les décisions structurantes.",
   },
   {
     nm: "Morgane",
     ro: "Head of Delivery",
     img: "/team/morgane.png",
-    ds: "Responsable de la livraison de lâ€™ensemble des projets. Coordination des Ã©quipes, suivi client, respect des dÃ©lais et de la qualitÃ©.",
+    ds: "Responsable de la livraison de l’ensemble des projets. Coordination des équipes, suivi client, respect des délais et de la qualité.",
   },
   {
     nm: "Fadi Atmania",
-    ro: "Cofondateur Â· DÃ©veloppement",
+    ro: "Cofondateur · Développement",
     img: "/team/fadi-atmania.jpg",
-    ds: "Cofondateur de Progix. Pilote le dÃ©veloppement commercial, les partenariats et la relation client sur la durÃ©e.",
+    ds: "Cofondateur de Progix. Pilote le développement commercial, les partenariats et la relation client sur la durée.",
   },
 ];
 
@@ -127,7 +127,7 @@ const extras: ReadonlyArray<Extra> = [
   },
   {
     label: "Marketing",
-    name: "Corentin DesmaiziÃ¨res",
+    name: "Corentin Desmaizières",
     img: "/team/corentin-desmaizieres.png",
     desc: "Responsable marketing et acquisition.",
   },
@@ -138,72 +138,72 @@ const team: ReadonlyArray<Member> = [
   {
     nm: "Karim Cheddad",
     ro: "Architecte Backend Senior",
-    tag: "Python Â· FastAPI",
+    tag: "Python · FastAPI",
     img: "/team/karim-cheddad.jpg",
   },
   {
     nm: "Achref Arabi",
     ro: "Frontend Senior",
-    tag: "React Â· Three.js",
+    tag: "React · Three.js",
     img: "/team/achraf-arabi.png",
   },
   {
     nm: "Mohamed L. Bouhezza",
-    ro: "IngÃ©nieur IA",
-    tag: "IA Â· Flutter",
+    ro: "Ingénieur IA",
+    tag: "IA · Flutter",
     img: "/team/mohamed-bouhezza.jpg",
   },
   {
     nm: "Meghlaoui Arselene",
-    ro: "RÃ©seaux & SÃ©curitÃ©",
-    tag: "SÃ©curitÃ© Â· Flutter",
+    ro: "Réseaux & Sécurité",
+    tag: "Sécurité · Flutter",
     img: "/team/arslene.png",
   },
   {
     nm: "Khalil Cheddadi",
-    ro: "IngÃ©nierie Logiciels Complexes",
-    tag: "QA Â· DevOps Â· CI/CD",
+    ro: "Ingénierie Logiciels Complexes",
+    tag: "QA · DevOps · CI/CD",
     img: "/team/khalil-cheddadi.jpg",
   },
   {
     nm: "Mohamed Islem Deneche",
     ro: "Frontend Engineer",
-    tag: "React Â· React Native",
+    tag: "React · React Native",
     img: "/team/islem-deneche.jpg",
   },
   {
     nm: "Houssem Ferrani",
     ro: "Full Stack Engineer",
-    tag: "FastAPI Â· React",
+    tag: "FastAPI · React",
     img: "/team/houssem-ferrani.jpg",
   },
   {
     nm: "Hafed",
     ro: "Mobile Engineer",
-    tag: "Flutter Â· Dart",
+    tag: "Flutter · Dart",
     img: "/team/hafed.png",
   },
   {
     nm: "Ghassen D.",
     ro: "Mobile Engineer",
-    tag: "React Native Â· Expo",
+    tag: "React Native · Expo",
     img: "/team/ghassen.png",
   },
   {
     nm: "Ali T.",
     ro: "Full Stack Engineer",
-    tag: "Next.js Â· NestJS",
+    tag: "Next.js · NestJS",
     img: "/team/ali.png",
   },
 ];
 
 type StackGroup = { h: string; items: ReadonlyArray<string> };
 const stack: ReadonlyArray<StackGroup> = [
-  { h: "Backend", items: ["Python Â· FastAPI", "Node Â· NestJS", "Java Â· Spring", "Django"] },
-  { h: "Frontend", items: ["React", "Next.js", "SvelteKit", "Vue Â· TS"] },
-  { h: "Mobile", items: ["Flutter Â· Dart", "React Native", "Swift Â· Kotlin", "Expo"] },
-  { h: "DonnÃ©es", items: ["PostgreSQL", "MongoDB", "Redis", "Supabase"] },
-  { h: "DevOps", items: ["Docker", "GitHub Actions", "CI/CD", "AWS Â· VPS"] },
+  { h: "Backend", items: ["Python · FastAPI", "Node · NestJS", "Java · Spring", "Django"] },
+  { h: "Frontend", items: ["React", "Next.js", "SvelteKit", "Vue · TS"] },
+  { h: "Mobile", items: ["Flutter · Dart", "React Native", "Swift · Kotlin", "Expo"] },
+  { h: "Données", items: ["PostgreSQL", "MongoDB", "Redis", "Supabase"] },
+  { h: "DevOps", items: ["Docker", "GitHub Actions", "CI/CD", "AWS · VPS"] },
 ];
 
 type Step = { num: string; h: string; p: string };
@@ -211,27 +211,27 @@ const steps: ReadonlyArray<Step> = [
   {
     num: "1",
     h: "Cadrage",
-    p: "RÃ©union de kickoff. On dÃ©finit workflows, user stories et architecture. On vous challenge sur vos choix.",
+    p: "Réunion de kickoff. On définit workflows, user stories et architecture. On vous challenge sur vos choix.",
   },
   {
     num: "2",
     h: "Design",
-    p: "Maquettes sur mesure validÃ©es avec vous. Nos designers seniors crÃ©ent une interface qui convertit.",
+    p: "Maquettes sur mesure validées avec vous. Nos designers seniors créent une interface qui convertit.",
   },
   {
     num: "3",
-    h: "DÃ©veloppement",
-    p: "Livraison itÃ©rative par sprints. Vous validez Ã  chaque Ã©tape via TestFlight ou APK, meeting hebdomadaire.",
+    h: "Développement",
+    p: "Livraison itérative par sprints. Vous validez à chaque étape via TestFlight ou APK, meeting hebdomadaire.",
   },
   {
     num: "4",
     h: "Lancement",
-    p: "Publication sur lâ€™App Store et le Play Store. On gÃ¨re toute la mise en ligne pour vous.",
+    p: "Publication sur l’App Store et le Play Store. On gère toute la mise en ligne pour vous.",
   },
   {
     num: "5",
     h: "Croissance",
-    p: "Accompagnement marketing 90 jours et support continu. On vous aide Ã  acquÃ©rir vos utilisateurs.",
+    p: "Accompagnement marketing 90 jours et support continu. On vous aide à acquérir vos utilisateurs.",
   },
 ];
 
@@ -239,20 +239,20 @@ type Commit = { h: string; p: string };
 const commits: ReadonlyArray<Commit> = [
   {
     h: "Communication transparente",
-    p: "Meeting hebdomadaire, rÃ©ponse sous 24 h, suivi continu via Slack.",
+    p: "Meeting hebdomadaire, réponse sous 24 h, suivi continu via Slack.",
   },
   {
-    h: "PropriÃ©tÃ© intellectuelle progressive",
-    p: "Vous Ãªtes propriÃ©taire Ã  100 % â€” transfÃ©rÃ©e Ã  chaque sprint payÃ©.",
+    h: "Propriété intellectuelle progressive",
+    p: "Vous êtes propriétaire à 100 % — transférée à chaque sprint payé.",
   },
-  { h: "Garantie de dÃ©lai", p: "PÃ©nalitÃ©s contractuelles en cas de retard de notre part." },
+  { h: "Garantie de délai", p: "Pénalités contractuelles en cas de retard de notre part." },
   {
-    h: "Documentation complÃ¨te",
-    p: "Code maintenable, documentÃ©, reprenable par nâ€™importe quelle Ã©quipe.",
+    h: "Documentation complète",
+    p: "Code maintenable, documenté, reprenable par n’importe quelle équipe.",
   },
 ];
 
-/* Realisations â€” mobile apps shipped by Progix. Media (app demos + screenshots)
+/* Realisations — mobile apps shipped by Progix. Media (app demos + screenshots)
  * hosted on Supabase (Projix bucket). Videos autoplay muted on loop. */
 const SB = "https://lgpngbxkeuyvjcgrftxa.supabase.co/storage/v1/object/public/Projix/Projects";
 
@@ -269,21 +269,21 @@ const portfolio: ReadonlyArray<Project> = [
   {
     cat: "Restauration",
     nm: "Pops",
-    p: "App mobile restaurant-to-consumer : commande, fidÃ©lisation et expÃ©rience client en direct, sans intermÃ©diaire.",
+    p: "App mobile restaurant-to-consumer : commande, fidélisation et expérience client en direct, sans intermédiaire.",
     media: `${SB}/Pops/pops-demo.mp4`,
     poster: `${SB}/Pops/pops-splash.png`,
   },
   {
     cat: "Marketplace",
     nm: "Hand2Hand",
-    p: "Marketplace mobile entre particuliers â€” biens et services, messagerie et missions de livraison intÃ©grÃ©es.",
+    p: "Marketplace mobile entre particuliers — biens et services, messagerie et missions de livraison intégrées.",
     media: `${SB}/Hand2Hand/hand2hand-dem0.mp4`,
     poster: `${SB}/Hand2Hand/hand2hand-homepage.png`,
   },
   {
-    cat: "Transport Â· Multi-services",
+    cat: "Transport · Multi-services",
     nm: "CoRide",
-    p: "App mobile multi-services (Flutter) : transport privÃ©, livraison et food delivery â€” app mobile et vitrine web.",
+    p: "App mobile multi-services (Flutter) : transport privé, livraison et food delivery — app mobile et vitrine web.",
     combo: {
       video: `${SB}/CoRide/CoRideVideo.mp4`,
       phone: `${SB}/CoRide/Splash%20screen.png`,
@@ -293,34 +293,34 @@ const portfolio: ReadonlyArray<Project> = [
   {
     cat: "Location de voitures",
     nm: "My Fleet",
-    p: "Mise en relation agences â†” clients : recherche, rÃ©servation, inspection et suivi du vÃ©hicule.",
+    p: "Mise en relation agences ↔ clients : recherche, réservation, inspection et suivi du véhicule.",
     media: `${SB}/MyFleet/myfleet-demo.mp4`,
     poster: `${SB}/MyFleet/myfleet-homescreen.png`,
   },
   {
-    cat: "PublicitÃ©",
+    cat: "Publicité",
     nm: "DriveAds",
-    p: "Gestion de campagnes publicitaires diffusÃ©es sur vÃ©hicules â€” du ciblage au suivi des performances.",
+    p: "Gestion de campagnes publicitaires diffusées sur véhicules — du ciblage au suivi des performances.",
     media: `${SB}/DriveAds/driveads-demo.mp4`,
     poster: `${SB}/DriveAds/driveads-homescreen.png`,
   },
   {
-    cat: "Restauration Â· Livraison",
+    cat: "Restauration · Livraison",
     nm: "Breaking Family",
-    p: "App de restaurant : consultation du menu, commande de plats et livraison Ã  domicile.",
+    p: "App de restaurant : consultation du menu, commande de plats et livraison à domicile.",
     media: `${SB}/BreakingFamily/breaking-family-demo.mp4`,
     poster: `${SB}/BreakingFamily/breaking-family-home.jpeg`,
   },
   {
-    cat: "Logistique Â· ExpÃ©dition",
+    cat: "Logistique · Expédition",
     nm: "iBox",
-    p: "ExpÃ©dition de colis en un geste : mise en relation avec des transporteurs de confiance, partout dans le monde.",
+    p: "Expédition de colis en un geste : mise en relation avec des transporteurs de confiance, partout dans le monde.",
     gallery: [`${SB}/iBox/IMG_1835.PNG`, `${SB}/iBox/IMG_1838.PNG`, `${SB}/iBox/IMG_1840.PNG`],
   },
   {
     cat: "Rencontres",
     nm: "Al-aqd",
-    p: "Application de rencontres halal â€” profils, matchs et messagerie, dans le respect des valeurs de la communautÃ©.",
+    p: "Application de rencontres halal — profils, matchs et messagerie, dans le respect des valeurs de la communauté.",
     gallery: [
       `${SB}/Al-aqd/Al-aqd-mainview.jpeg`,
       `${SB}/Al-aqd/Al-aqd-profile.jpeg`,
@@ -363,15 +363,15 @@ type Diff = { h: string; p: string };
 const diff: ReadonlyArray<Diff> = [
   {
     h: "Expertise business + technique",
-    p: "On ne fait pas quâ€™exÃ©cuter un cahier des charges. On vous conseille sur ce qui marche.",
+    p: "On ne fait pas qu’exécuter un cahier des charges. On vous conseille sur ce qui marche.",
   },
   {
     h: "Accompagnement marketing inclus",
-    p: "On vous forme Ã  acquÃ©rir vos utilisateurs. Code + croissance.",
+    p: "On vous forme à acquérir vos utilisateurs. Code + croissance.",
   },
-  { h: "140+ projets livrÃ©s", p: "Une Ã©quipe expÃ©rimentÃ©e qui sait Ã©viter les piÃ¨ges et livrer." },
-  { h: "FiÃ¨rement montrÃ©alaise", p: "ProximitÃ©, mÃªme fuseau horaire, conformitÃ© Loi 25 native." },
-  { h: "Vision long terme", p: "On conÃ§oit pour durer 5 Ã  10 ans, pas pour le court terme." },
+  { h: "140+ projets livrés", p: "Une équipe expérimentée qui sait éviter les pièges et livrer." },
+  { h: "Fièrement montréalaise", p: "Proximité, même fuseau horaire, conformité Loi 25 native." },
+  { h: "Vision long terme", p: "On conçoit pour durer 5 à 10 ans, pas pour le court terme." },
 ];
 
 const marqueeItems = [
@@ -448,7 +448,7 @@ function SectionHead({
 /* --------------------------------------------------------------- render --- */
 
 /**
- * Accueil / PrÃ©sentation â€” dark cinematic landing. Server Component composing
+ * Accueil / Présentation — dark cinematic landing. Server Component composing
  * the cinematic client leaves (smooth scroll, header, hero, reveals, tilt cards,
  * marquee, counters, footer). Same Progix content, reframed as a product launch.
  */
@@ -467,20 +467,20 @@ export function AccueilCinematic() {
 
           <Marquee items={marqueeItems} />
 
-          {/* 01 â€” IDENTITÃ‰ */}
+          {/* 01 — IDENTITÉ */}
           <section className={styles.section}>
             <div className={styles.container}>
               <SectionHead
                 num="01"
-                eyebrow="Notre identitÃ©"
-                title="Un cabinet dâ€™ingÃ©nierie, pas un atelier de code"
+                eyebrow="Notre identité"
+                title="Un cabinet d’ingénierie, pas un atelier de code"
               />
               <div className={styles.identityGrid} style={{ marginTop: 48 }}>
                 <Reveal direction="right">
                   <div>
                     <p style={{ fontSize: 18, color: "var(--text)", lineHeight: 1.66, margin: 0 }}>
-                      Progix est une firme de dÃ©veloppement logiciel basÃ©e Ã  MontrÃ©al. Nous
-                      concevons, dÃ©veloppons et maintenons des systÃ¨mes en production â€” applications
+                      Progix est une firme de développement logiciel basée à Montréal. Nous
+                      concevons, développons et maintenons des systèmes en production — applications
                       mobiles, plateformes web, CRM et ERP sur mesure.
                     </p>
                     <p
@@ -491,19 +491,19 @@ export function AccueilCinematic() {
                         margin: "18px 0 0",
                       }}
                     >
-                      Nous ne livrons pas seulement du code. Nous livrons des produits qui gÃ©nÃ¨rent
-                      des revenus et que nous accompagnons sur la durÃ©e.
+                      Nous ne livrons pas seulement du code. Nous livrons des produits qui génèrent
+                      des revenus et que nous accompagnons sur la durée.
                     </p>
                   </div>
                 </Reveal>
                 <Reveal direction="left" delay={0.1}>
                   <div className={`${styles.glass} ${styles.quoteCard}`}>
                     <span className={styles.quoteMark} aria-hidden="true">
-                      â€œ
+                      “
                     </span>
                     <p className={styles.quoteText}>
-                      Un produit qui ne gÃ©nÃ¨re pas de revenus nâ€™est pas livrÃ© â€” il est seulement
-                      Ã©crit.
+                      Un produit qui ne génère pas de revenus n’est pas livré — il est seulement
+                      écrit.
                     </p>
                     <span className={styles.quoteAuthor}>
                       <span className={styles.eyebrowBar} />
@@ -515,7 +515,7 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* 02 â€” SERVICES */}
+          {/* 02 — SERVICES */}
           <section className={styles.section} id="services">
             <span className={`${styles.sectionGlow} ${styles.sectionGlowA}`} aria-hidden="true" />
             <div className={styles.container}>
@@ -524,11 +524,11 @@ export function AccueilCinematic() {
                 eyebrow="Services"
                 title={
                   <>
-                    Des solutions complÃ¨tes,{" "}
+                    Des solutions complètes,{" "}
                     <span className={styles.gradText}>du concept au lancement</span>
                   </>
                 }
-                lead="Du concept au lancement et au-delÃ  : applications, plateformes, IA et accompagnement business â€” une Ã©quipe senior pour chaque brique de votre produit."
+                lead="Du concept au lancement et au-delà : applications, plateformes, IA et accompagnement business — une équipe senior pour chaque brique de votre produit."
               />
               <div className={`${styles.gridAuto} ${styles.cols3}`}>
                 {services.map((s, i) => (
@@ -544,13 +544,13 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* 03 â€” DIRECTION */}
+          {/* 03 — DIRECTION */}
           <section className={styles.section}>
             <div className={styles.container}>
               <SectionHead
                 num="03"
                 eyebrow="Direction"
-                title="Une direction impliquÃ©e Ã  chaque Ã©tape"
+                title="Une direction impliquée à chaque étape"
               />
               <div className={`${styles.gridAuto} ${styles.cols3}`}>
                 {leaders.map((l, i) => (
@@ -585,14 +585,14 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* 04 â€” Ã‰QUIPE */}
+          {/* 04 — ÉQUIPE */}
           <section className={`${styles.section} ${styles.sectionTight}`}>
             <div className={styles.container}>
               <SectionHead
                 num="04"
-                eyebrow="Lâ€™Ã©quipe"
-                title="Une Ã©quipe rÃ´dÃ©e Ã  travailler ensemble"
-                lead="Nos ingÃ©nieurs, seniors et spÃ©cialisÃ©s, travaillent ensemble depuis des annÃ©es â€” la collaboration prolongÃ©e fait la diffÃ©rence sur les projets complexes."
+                eyebrow="L’équipe"
+                title="Une équipe rôdée à travailler ensemble"
+                lead="Nos ingénieurs, seniors et spécialisés, travaillent ensemble depuis des années — la collaboration prolongée fait la différence sur les projets complexes."
               />
               <div className={styles.teamWall}>
                 {team.map((m, i) => (
@@ -614,7 +614,7 @@ export function AccueilCinematic() {
                         <span className={styles.teamTickTR} aria-hidden="true" />
                         <span className={styles.teamTickBL} aria-hidden="true" />
                         <span className={styles.teamSkills}>
-                          {m.tag.split("Â·").map((s) => (
+                          {m.tag.split("·").map((s) => (
                             <span key={s} className={styles.teamSkill}>
                               {s.trim()}
                             </span>
@@ -635,7 +635,7 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* CHAPTER BAND â€” counters */}
+          {/* CHAPTER BAND — counters */}
           <section className={styles.band}>
             <div className={styles.bandInner}>
               <Reveal>
@@ -651,19 +651,19 @@ export function AccueilCinematic() {
               </Reveal>
               <Reveal delay={0.12}>
                 <p className={styles.lead}>
-                  Lâ€™expertise dâ€™une Ã©quipe senior et un accompagnement business complet, du cadrage
-                  jusquâ€™au lancement â€” au prix dâ€™un lancement, pas dâ€™une ESN.
+                  L’expertise d’une équipe senior et un accompagnement business complet, du cadrage
+                  jusqu’au lancement — au prix d’un lancement, pas d’une ESN.
                 </p>
               </Reveal>
               <div className={styles.bandStats}>
                 {[
                   {
                     num: <Counter value={100} suffix=" %" />,
-                    l: "PropriÃ©tÃ© du code, transfÃ©rÃ©e Ã  chaque sprint",
+                    l: "Propriété du code, transférée à chaque sprint",
                   },
-                  { num: <Counter value={24} suffix=" h" />, l: "DÃ©lai de rÃ©ponse garanti" },
+                  { num: <Counter value={24} suffix=" h" />, l: "Délai de réponse garanti" },
                   { num: <Counter value={90} suffix=" j" />, l: "Accompagnement marketing inclus" },
-                  { num: <>5â€“10 ans</>, l: "ConÃ§u pour durer dans le temps" },
+                  { num: <>5–10 ans</>, l: "Conçu pour durer dans le temps" },
                 ].map((s, i) => (
                   <Reveal key={i} delay={i * 0.08}>
                     <div>
@@ -676,14 +676,14 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* 05 â€” TECHNOLOGIES */}
+          {/* 05 — TECHNOLOGIES */}
           <section className={styles.section}>
             <div className={styles.container}>
               <SectionHead
                 num="05"
                 eyebrow="Technologies"
-                title="La bonne techno pour le bon problÃ¨me"
-                lead="Sans prÃ©fÃ©rence dogmatique. Nous maÃ®trisons la pile la plus performante du moment et choisissons lâ€™outil adaptÃ© Ã  chaque besoin mÃ©tier."
+                title="La bonne techno pour le bon problème"
+                lead="Sans préférence dogmatique. Nous maîtrisons la pile la plus performante du moment et choisissons l’outil adapté à chaque besoin métier."
               />
               <div className={styles.stackGrid}>
                 {stack.map((s, i) => (
@@ -702,10 +702,10 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* 06 â€” MÃ‰THODE */}
+          {/* 06 — MÉTHODE */}
           <section className={`${styles.section} ${styles.sectionTight}`}>
             <div className={styles.container}>
-              <SectionHead num="06" eyebrow="MÃ©thode" title="Un process Ã©prouvÃ© en 5 Ã©tapes" />
+              <SectionHead num="06" eyebrow="Méthode" title="Un process éprouvé en 5 étapes" />
               <div className={styles.method}>
                 {steps.map((st, i) => (
                   <Reveal key={st.num} delay={i * 0.07}>
@@ -730,14 +730,14 @@ export function AccueilCinematic() {
                     margin: "44px 0 0",
                   }}
                 >
-                  <span style={{ color: "var(--cyan)", marginRight: 10 }}>â—†</span>Nos engagements
+                  <span style={{ color: "var(--cyan)", marginRight: 10 }}>◆</span>Nos engagements
                 </h3>
               </Reveal>
               <div className={styles.checkGrid}>
                 {commits.map((c, i) => (
                   <Reveal key={c.h} delay={(i % 2) * 0.08}>
                     <div className={styles.checkItem}>
-                      <span className={styles.checkMark}>âœ“</span>
+                      <span className={styles.checkMark}>✓</span>
                       <div>
                         <p className={styles.checkTitle}>{c.h}</p>
                         <p className={styles.checkText}>{c.p}</p>
@@ -749,15 +749,15 @@ export function AccueilCinematic() {
             </div>
           </section>
 
-          {/* 07 â€” RÃ‰ALISATIONS */}
+          {/* 07 — RÉALISATIONS */}
           <section className={styles.section} id="realisations">
             <span className={`${styles.sectionGlow} ${styles.sectionGlowB}`} aria-hidden="true" />
             <div className={styles.container}>
               <SectionHead
                 num="07"
-                eyebrow="RÃ©alisations"
+                eyebrow="Réalisations"
                 title="Des applications mobiles en production"
-                lead="Des apps iOS et Android conÃ§ues, dÃ©veloppÃ©es et publiÃ©es sur les stores â€” un aperÃ§u de chacune, en dÃ©mo et en images."
+                lead="Des apps iOS et Android conçues, développées et publiées sur les stores — un aperçu de chacune, en démo et en images."
               />
               <div className={styles.showcaseList}>
                 {portfolio.map((p, i) => (
@@ -827,7 +827,7 @@ export function AccueilCinematic() {
                   <div>
                     <div className={styles.moreNum}>140+</div>
                     <div className={styles.moreLabel}>
-                      projets livrÃ©s Ã  ce jour â€” ceci nâ€™est quâ€™un aperÃ§u de nos rÃ©alisations.
+                      projets livrés à ce jour — ceci n’est qu’un aperçu de nos réalisations.
                     </div>
                   </div>
                   <span className={styles.moreLink}>
@@ -841,27 +841,27 @@ export function AccueilCinematic() {
                       <path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.2 3.44 9.6 8.21 11.16.6.11.82-.25.82-.57v-2.2c-3.34.71-4.04-1.6-4.04-1.6-.55-1.36-1.34-1.72-1.34-1.72-1.09-.73.08-.72.08-.72 1.2.08 1.84 1.21 1.84 1.21 1.07 1.79 2.81 1.27 3.5.97.11-.76.42-1.27.76-1.56-2.67-.3-5.47-1.31-5.47-5.83 0-1.29.47-2.34 1.24-3.17-.12-.3-.54-1.52.12-3.16 0 0 1.01-.32 3.3 1.21a11.6 11.6 0 0 1 6 0c2.29-1.53 3.3-1.21 3.3-1.21.66 1.64.24 2.86.12 3.16.77.83 1.23 1.88 1.23 3.17 0 4.53-2.81 5.53-5.49 5.82.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57A12.02 12.02 0 0 0 24 12.29C24 5.78 18.63.5 12 .5z" />
                     </svg>
                     github.com/progixdev
-                    <span className={styles.btnArrow}>â†’</span>
+                    <span className={styles.btnArrow}>→</span>
                   </span>
                 </a>
               </Reveal>
             </div>
           </section>
 
-          {/* 08 â€” POURQUOI NOUS */}
+          {/* 08 — POURQUOI NOUS */}
           <section className={`${styles.section} ${styles.sectionTight}`}>
             <div className={styles.container}>
               <SectionHead
                 num="08"
                 eyebrow="Pourquoi nous"
-                title="Plus quâ€™un prestataire, un partenaire"
-                lead="La plupart des agences vous livrent du code et disparaissent. Nous, on sâ€™installe comme votre partenaire stratÃ©gique et technologique â€” jusquâ€™au succÃ¨s, pas juste jusquâ€™Ã  la livraison."
+                title="Plus qu’un prestataire, un partenaire"
+                lead="La plupart des agences vous livrent du code et disparaissent. Nous, on s’installe comme votre partenaire stratégique et technologique — jusqu’au succès, pas juste jusqu’à la livraison."
               />
               <div className={styles.checkGrid}>
                 {diff.map((d, i) => (
                   <Reveal key={d.h} delay={(i % 2) * 0.08}>
                     <div className={styles.checkItem}>
-                      <span className={styles.checkMark}>âœ“</span>
+                      <span className={styles.checkMark}>✓</span>
                       <div>
                         <p className={styles.checkTitle}>{d.h}</p>
                         <p className={styles.checkText}>{d.p}</p>
